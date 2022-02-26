@@ -1,0 +1,11 @@
+@import "src/app/app-colors.scss";
+
+
+.menu-navigation {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: center;
+   height: 10%;
+   color: $light-gray;
+}
