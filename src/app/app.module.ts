@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuModule } from './components/menu/menu.module';
 import { HomeModule } from './home/home.module';
+import { MatCustomIconService } from './services/mat-custom-icon.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,8 +19,9 @@ import { HomeModule } from './home/home.module';
     BrowserAnimationsModule,
     MenuModule,
     HomeModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [MatCustomIconService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,76 @@
+@import "src/app/app-colors.scss";
+
+.skills-container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   min-height: 800px;
+   flex-grow: 1; 
+   align-items: center;
+   justify-content: center;
+
+   .card-skills {
+      display: flex;
+      flex-direction: column;
+      padding:0;
+      min-height: 80%;
+      flex-grow: 1; 
+      width: 70%;
+      background-color: $black;
+      box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      mat-card-header {
+         background-color: #141414;
+         color: $light-gray;
+      }
+
+      .card-header {
+         display: flex;
+         width: 100%;
+         min-height: 90px;
+         flex-grow: 1;
+         align-items: center;
+         justify-content: center;
+      }
+
+      h2{
+         font-size: 3.8rem;
+         font-weight: 700;
+         margin: 0;
+      }
+
+      .card-content{
+         color: $light-gray;
+         display: flex;
+         flex-direction: column;
+         flex-grow: 1; 
+         height: 100%;
+         padding: 10px 10px 10px 25px;
+         border: 5px solid;
+         border-radius: 0px 0px 10px 10px;
+         border-top: none;
+         border-color: $light-black;
+         justify-content:center;
+         
+         h2 { 
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin: 5px 0px;
+         }
+      }
+
+      .card-main-content {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         height: 100%;
+         gap: 20px;
+         justify-content: space-around;
+
+         .skill-card {
+            width: 360px;
+            height: 260px;
+         }
+      }
+   }
+}

@@ -2,6 +2,8 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import '~@angular/material/theming';
+@import "src/app/app-colors.scss";
+
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -28,5 +30,5 @@ $raulryan-portfolio-theme: mat-light-theme($raulryan-portfolio-primary, $raulrya
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: 100%; background-color: $black; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

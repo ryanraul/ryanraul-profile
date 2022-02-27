@@ -1,0 +1,48 @@
+@import "src/app/app-colors.scss";
+
+
+.skill-card-container{
+   background-color: $black;
+   width: 100%;
+   height: 100%;
+   color: $light-gray;
+   margin: 0;
+   padding: 0;
+   border-left: 3px solid #fff;
+   border-radius: 0px;
+   border-image: $main-gradient-bottom-left 1;   
+   box-shadow: none;
+
+   background-color: $light-black;
+   
+   mat-card-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2{
+         font-size: 1.6rem;
+         margin: 10px 0px 0px 0px;
+      }
+
+      mat-icon {
+         width: 110px;
+         height: 110px;
+         font-size: 110px;
+      }
+   }
+
+   .description-skill {
+      padding: 10px;
+      p { 
+         font-size: 1.1rem;
+      }
+   }
+
+
+}
+
+::ng-deep .skill-card-container .mat-card-header-text {
+   margin: 0 !important;
+}

@@ -1,6 +1,13 @@
-@import "src/app/app-colors.scss";
+.main-container { 
+   display: flex;
+   flex-direction: column;
 
-.app-container {
-   background-color: $black;
-   height: 100%;
+   .menu{
+      height: 40%;
+   }
+   
+   .page {
+      height: 60%;
+   }
 }
+

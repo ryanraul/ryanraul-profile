@@ -2,6 +2,7 @@ $light-blue: #1AC4F0;
 $pink: #FC35A1;
 $yellow: #FFD13B;
 $black: #111111;
+$light-black: #141414;
 $light-gray: #E5E5E5;
 
 $new-blue: #00DCFF;
@@ -9,19 +10,34 @@ $new-pink: #FF5DB5;
 $new-yellow: #FFD13B;
 
 
-$main-colors-gradient : 
+$main-gradient-colors: 
+   #1ac4f0, 
+   #18b7ff, 
+   #5fa6ff, 
+   #9d8eff, 
+   #d06ee2, 
+   #ec5dc2, 
+   #fb529f, 
+   #ff507b, 
+   #ff6c64, 
+   #ff8d4e, 
+   #ffaf3d, 
+   #ffd13b;
+
+$main-gradient-right : 
    linear-gradient(
       to right, 
-      #1ac4f0, 
-      #18b7ff, 
-      #5fa6ff, 
-      #9d8eff, 
-      #d06ee2, 
-      #ec5dc2, 
-      #fb529f, 
-      #ff507b, 
-      #ff6c64, 
-      #ff8d4e, 
-      #ffaf3d, 
-      #ffd13b
+      $main-gradient-colors
+   );
+
+$main-gradient-right-bottom : 
+   linear-gradient(
+      to right bottom, 
+      $main-gradient-colors
+   );
+
+$main-gradient-bottom-left : 
+   linear-gradient(
+      to bottom left, 
+      $main-gradient-colors
    );
