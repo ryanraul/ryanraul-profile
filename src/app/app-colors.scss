@@ -41,3 +41,41 @@ $main-gradient-bottom-left :
       to bottom left, 
       $main-gradient-colors
    );
+
+$border-menu-home :
+   linear-gradient(
+      to right, 
+      #1ac4f0, 
+      #18b7ff, 
+      #5fa6ff
+   );
+
+$border-menu-curriculum :
+   linear-gradient(
+      to right, 
+      #9d8eff, 
+      #d06ee2, 
+      #ec5dc2
+   );
+
+
+$border-menu-skills :
+   linear-gradient(
+      to right, 
+      #fb529f, 
+      #ff507b, 
+      #ff6c64
+   );
+
+
+$border-menu-portfolio :   
+   linear-gradient(
+      to right, 
+      #ff8d4e, 
+      #ffaf3d, 
+      #ffd13b
+   );
+
+
+ 
+

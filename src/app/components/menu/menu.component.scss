@@ -1,12 +1,59 @@
 @import "src/app/app-colors.scss";
 
 
-.menu-navigation {
+nav {
    display: flex;
-   align-items: center;
-   width: 100%;
    gap: 12px;
-   justify-content: center;
-   height: 10%;
+   justify-content: space-around;
+   align-items: center;
    color: $light-gray;
+   height: 10vh;
+}
+
+.nav-list {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   gap: 5px;
+   list-style: none;
+}
+
+.nav-list li {
+   
+   min-width: 90px;
+   text-align: center;
+}
+
+li:nth-child(1) {
+   // border-color: $light-blue;
+   border-image: $border-menu-home 1;
+}
+
+nav > ul > li:nth-child(2) {
+   border-color: $pink;
+}
+
+nav > ul > li:nth-child(3) {
+   // border-color: $pink;
+   border-image: $border-menu-skills 1;
+}
+
+nav > ul > li:nth-child(4) {
+   // border-color: $yellow;
+   border-image: $border-menu-portfolio 1;
+}
+
+a {
+   font-weight: 500;
+   text-decoration: none;
+   color: $light-gray;
+}
+
+a:visited {
+   text-decoration: none; 
+   color: $light-gray;
+}
+
+.active {
+   border-bottom: 2px solid;
 }

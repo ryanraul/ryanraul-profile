@@ -60,12 +60,11 @@
       }
 
       .card-main-content {
-         display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
-         height: 100%;
-         gap: 20px;
-         justify-content: space-around;
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(360px, max-content));
+         grid-gap: 50px;
+         justify-content: center;
+         padding: initial;
 
          .skill-card {
             width: 360px;
