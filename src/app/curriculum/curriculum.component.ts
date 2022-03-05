@@ -13,37 +13,49 @@ export class CurriculumComponent implements OnInit {
     
   timelineEducation: TimelineItem[] = [
     {
-      title: 'Angular',
-      date: '06/2021',
-      description: "Nivel de aprendizado avançado na linguagem."
+      title: 'Computer Technician',
+      date: '01/2016 - 12/2018',
+      local: 'Etec Salles Gomes - Tatui, SP - Brasil',
+      description: "Formação em técnico de informática Integrado ao Ensino Médio."
     },
     {
-      title: '.NET C#',
-      date: '05/2022',
-      description: "Nivel de aprendizado intermediário na linguagem."
+      title: 'Computer Engineering',
+      date: '01/2019 - 12/2023',
+      local: 'Facens - Sorocaba, SP - Brasil',
+      description: "Graduação em Engenharia da Computação."
     },
     {
-      title: '.NET C#',
-      date: '05/2022',
-      description: "Nivel de aprendizado intermediário na linguagem."
+      title: 'Acesso à dados com .NET, C#, Dapper e SQL Server.',
+      date: '08/2021 - 08/2021',
+      local: 'Balta - Online Course',
+      description: "Angular: Boas práticas em arquiteturas e formulários."
     },
     {
-      title: '.NET C#',
-      date: '05/2022',
-      description: "Nivel de aprendizado intermediário na linguagem."
+      title: 'Angular: Boas práticas em arquiteturas e formulários.',
+      date: '02/2022 - 02/2022',
+      local: 'Alura - Online Course',
+      description: "Angular: Boas práticas em arquiteturas e formulários."
     },
+    
   ];
 
   timelineProfessional: TimelineItem[] = [
     {
-      title: 'Angular',
-      date: '06/2021',
-      description: "Nivel de aprendizado avançado na linguagem."
+      title: 'Uppertools',
+      date: '09/2020 - 09/2021',
+      local: 'Sorocaba, SP - Brasil',
+      description: `
+        Desenvolvimento ou manutenção aos projetos utilizando boas práticas.
+        Uso dos conceitos das metodologias ágeis Scrum e Kanban para comunicação e desenvolvimento em equipe.
+        Tecnologias utilizadas: C#, SQL, Hana e SAP.
+      `
     },
     {
-      title: '.NET C#',
-      date: '05/2022',
-      description: "Nivel de aprendizado intermediário na linguagem."
+      title: 'Neobpo',
+      date: '09/2021 - Current',
+      local: 'São Paulo, SP - Brasil',
+      description: `Desenvolvimento e manutenção aos projetos utilizando boas práticas.
+      Tecnologias utilizadas: C#, Angular e SQL.`
     },
   ];
 

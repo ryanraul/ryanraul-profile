@@ -8,6 +8,37 @@ nav {
    align-items: center;
    color: $light-gray;
    height: 10vh;
+
+   .home-logo-container {
+      width:100%;
+
+      .home-logo {
+         cursor: pointer;
+         display: flex;
+         justify-content: center;
+
+         b{
+            font-size: 36px;
+            font-size: 36px;
+         }
+   
+         span {
+            opacity: 0;
+            font-size: 2px;
+            transition: all .2s ease-out;
+         }
+      }
+
+      .home-logo:hover {
+         span {
+            font-size: 24px;
+            font-weight: 600;
+            opacity: 1;
+            transition: all .2s ease-in;
+         }
+      }
+      
+   }
 }
 
 .nav-list {
@@ -44,8 +75,9 @@ nav > ul > li:nth-child(4) {
 }
 
 a {
-   font-weight: 500;
+   font-weight: 600;
    text-decoration: none;
+   letter-spacing: 1px;
    color: $light-gray;
 }
 

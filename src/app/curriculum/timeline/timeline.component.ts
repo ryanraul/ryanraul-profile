@@ -8,6 +8,7 @@ import { TimelineItem } from '../timeline-item/TimelineItem';
 })
 export class TimelineComponent implements OnInit {
 
+  @Input() timelineTitle: string;
   @Input() timelineItens: TimelineItem[];
 
   constructor() { }

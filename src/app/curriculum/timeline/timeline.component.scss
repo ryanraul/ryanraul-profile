@@ -2,9 +2,29 @@
 
 .timeline-container {
    border-left: 3px solid;
-   border-image: $border-menu-curriculum-bottom 1;
-   // border-color: $light-gray;
+   // border-image: $border-menu-curriculum-bottom 1;
+   border-color: #202020;
    padding-left: 25px;
    margin: 0 auto;
    color: $light-gray;
+
+   .timeline-title{
+      display: flex;
+      justify-content:center;
+      color: #959595;
+      h1{
+         font-weight: 600;
+      }
+   }
 }
+
+
+
+.timeline-container:hover {
+   .timeline-title{
+      color: $light-gray;
+   }
+}
+
+
+
