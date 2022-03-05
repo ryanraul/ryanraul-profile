@@ -1,0 +1,10 @@
+@import "src/app/app-colors.scss";
+
+.timeline-container {
+   border-left: 3px solid;
+   border-image: $border-menu-curriculum-bottom 1;
+   // border-color: $light-gray;
+   padding-left: 25px;
+   margin: 0 auto;
+   color: $light-gray;
+}

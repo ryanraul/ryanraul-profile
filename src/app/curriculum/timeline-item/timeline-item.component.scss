@@ -1,0 +1,37 @@
+@import "src/app/app-colors.scss";
+
+h2{
+   border-bottom: 1px solid $light-gray;
+}
+
+.timeline-item {
+   color: $light-gray;
+   background-color: $light-black;
+   margin-bottom: 15px;
+   cursor: pointer;
+   position: relative;
+   border-left: 1px solid;
+   // border-image: $border-menu-curriculum-bottom 1;
+   border-color: $light-gray;
+   border-radius: 0px 5px 5px 0px;
+}
+
+.timeline-item::before {
+   content: "";
+   width: 14px;
+   height: 14px;
+   border: 2px solid #9d8eff;
+   position: absolute;
+   left: -36px;
+   border-radius: 50%;
+   top: 40%;
+   transform: translateY(-50%);
+   background: $light-black;
+}
+
+.item-date {
+   color: $light-gray;
+   font-weight: 700;
+   width: 20%;
+   text-align: center;
+}

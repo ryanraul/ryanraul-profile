@@ -1,6 +1,6 @@
 @import "src/app/app-colors.scss";
 
-.skills-container {
+.curriculum-container {
    display: flex;
    flex-direction: column;
    width: 100%;
@@ -9,7 +9,7 @@
    align-items: center;
    justify-content: center;
 
-   .card-skills {
+   .card-curriculum {
       display: flex;
       flex-direction: column;
       padding:0;
@@ -61,15 +61,12 @@
 
       .card-main-content {
          display: grid;
-         grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
+         grid-template-columns: repeat(auto-fit, minmax(600px, max-content));
          grid-gap: 50px;
          justify-content: center;
          padding: initial;
-
-         .skill-card {
-            width: 370px;
-            height: 300px;
-         }
       }
+
+
    }
 }

@@ -7,11 +7,12 @@
    height: 100%;
    color: $light-gray;
    margin: 0;
-   padding: 0;
-   border-left: 3px solid #fff;
-   border-radius: 0px;
-   border-image: $main-gradient-bottom-left 1;   
-   box-shadow: none;
+   // padding: 15px;
+   // border-left: 3px solid #fff;
+   border-radius: 5px;
+   // border-image: $border-menu-skills-top-right 1;   
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 
    background-color: $light-black;
    
@@ -20,7 +21,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
+      border-bottom: 2px solid #fff;
+      border-image: $border-menu-skills 1;
+      padding: 15px;
       h2{
          font-size: 1.6rem;
          margin: 10px 0px 0px 0px;
@@ -34,7 +37,7 @@
    }
 
    .description-skill {
-      padding: 10px;
+      padding: 25px;
       p { 
          font-size: 1.1rem;
       }
@@ -45,4 +48,8 @@
 
 ::ng-deep .skill-card-container .mat-card-header-text {
    margin: 0 !important;
+}
+
+::ng-deep .skill-card-container .mat-card {
+   padding: 0 !important;
 }
