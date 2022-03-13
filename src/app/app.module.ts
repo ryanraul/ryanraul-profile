@@ -8,6 +8,7 @@ import { MenuModule } from './components/menu/menu.module';
 import { HomeModule } from './home/home.module';
 import { MatCustomIconService } from './services/mat-custom-icon.service';
 import { HttpClientModule } from '@angular/common/http';
+import { CurriculumModule } from './curriculum/curriculum.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
     MenuModule,
     HomeModule,
     HttpClientModule,
+    CurriculumModule,
   ],
   providers: [MatCustomIconService],
   bootstrap: [AppComponent]

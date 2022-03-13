@@ -10,7 +10,11 @@ nav {
    height: 10vh;
 
    .home-logo-container {
-      width:100%;
+    display: flex;
+    width: 85%;    
+    height: 90%;
+    justify-content: center;
+    align-items: center;
 
       .home-logo {
          cursor: pointer;
@@ -36,6 +40,11 @@ nav {
             opacity: 1;
             transition: all .2s ease-in;
          }
+
+         height: 27px;
+         border-bottom: 2px solid #fff;
+         border-image: $border-menu-home 1;
+
       }
       
    }
@@ -57,16 +66,19 @@ nav {
 
 li:nth-child(1) {
    // border-color: $light-blue;
-   border-image: $border-menu-home 1;
+   // border-image: $border-menu-home 1;
+   border-image: $border-menu-curriculum 1;
 }
 
 nav > ul > li:nth-child(2) {
-   border-image: $border-menu-curriculum 1;
+   border-image: $border-menu-skills 1;
+   // border-image: $border-menu-curriculum 1;
 }
 
 nav > ul > li:nth-child(3) {
    // border-color: $pink;
-   border-image: $border-menu-skills 1;
+   border-image: $border-menu-portfolio 1;
+   // border-image: $border-menu-skills 1;
 }
 
 nav > ul > li:nth-child(4) {
